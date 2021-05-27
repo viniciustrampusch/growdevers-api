@@ -76,5 +76,5 @@ app.delete('/usuarios/:id', (request: Request, response: Response) => {
 });
 
 app.listen(8080, () => {
-    console.log('Rodando...');
+    console.log('API rodando...');
 });
